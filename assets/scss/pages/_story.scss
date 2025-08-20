@@ -1,0 +1,73 @@
+/* page */
+/* (400-96)/2=152 */
+.brand {
+	background-image: url(/assets/images/Hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 152px 0;
+	text-align: center;
+}
+
+.eng-title {
+	font-size: 28px;
+}
+
+@media(max-width: 767px) {
+	.brand {
+		padding: 87px 0;
+		background-image: url(/assets/images/hero-sm.png);
+	}
+}
+
+.section-lined {
+	border-bottom: 1px solid $neutral-300;
+}
+
+.history-desc {
+	border-left: 1px solid $neutral-900;
+	padding-left: 8px;
+}
+
+.history-list {
+	list-style-type: disc;
+	padding-left: 24px;
+}
+
+.concept-item {
+	padding-left: 12px;
+	border-left: 3px solid $neutral-300;
+}
+
+
+.text-primary-400 {
+	color: $primary-400;
+}
+
+.text-danger {
+	color: $danger-300;
+}
+
+.text-white {
+	color: $neutral-0;
+}
+
+.text-neutral-600 {
+	color: $neutral-600;
+}
+
+.text-primary-400 {
+	color: $primary-400;
+}
+
+.text-neutral-900 {
+	color: $neutral-900;
+}
+
+.bg-primary-100 {
+	background-color: $primary-100;
+}
+
+.bg-neutral-100 {
+	background-color: $neutral-100;
+}
