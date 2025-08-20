@@ -27,7 +27,7 @@
 
 .banner {
   text-align: center;
-  background-image: url(/assets/images/banner-co-branded.png);
+  background-image: url(../images/banner-co-branded.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,7 +52,7 @@
 @media(max-width: 767px) {
   .banner {
     padding: 64px 0;
-    background-image: url(/assets/images/banner-co-branded-sm.png);
+    background-image: url(../images/banner-co-branded-sm.png);
     overflow: hidden;
 
     .btn {
@@ -131,7 +131,7 @@
 .home {
   text-align: left;
   width: 1920px 800px;
-  background-image: url(/assets/images/banner.png);
+  background-image: url(../images/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -141,7 +141,7 @@
 @media(max-width: 767px) {
   .home {
     padding: 64px 0;
-    background-image: url(/assets/images/banner-sm.png);
+    background-image: url(../images/banner-sm.png);
     overflow: hidden;
   }
 }
